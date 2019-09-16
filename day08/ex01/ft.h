@@ -1,16 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nel-alla <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/08/26 19:01:47 by nel-alla          #+#    #+#             */
-/*   Updated: 2019/08/26 19:03:18 by nel-alla         ###   ########.fr       */
+/*   Created: 2019/09/12 02:23:26 by nel-alla          #+#    #+#             */
+/*   Updated: 2019/09/12 14:49:09 by nel-alla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ultimate_ft(int *********nbr)
-{
-	*********nbr = 42;
-}
+#ifndef FT_H
+# define FT_H
+
+void	ft_putchar(char c);
+void	ft_putstr(char *str);
+int		ft_strcmp(char *s1, char *s2);
+int		ft_strlen(char *str);
+void	ft_swap(int *a, int *b);
+
+#endif

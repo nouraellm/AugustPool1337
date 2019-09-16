@@ -1,16 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ft.c                                            :+:      :+:    :+:   */
+/*   ft_point.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nel-alla <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/08/26 04:48:33 by nel-alla          #+#    #+#             */
-/*   Updated: 2019/08/26 04:51:11 by nel-alla         ###   ########.fr       */
+/*   Created: 2019/09/12 04:29:50 by nel-alla          #+#    #+#             */
+/*   Updated: 2019/09/12 04:30:06 by nel-alla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ft(int *nbr)
+#ifndef FT_POINT_H
+# define FT_POINT_H
+
+typedef	struct	s_point
 {
-	*nbr = 42;
-}
+	int x;
+	int y;
+}				t_point;
+
+void			set_point(t_point *point);
+
+#endif
