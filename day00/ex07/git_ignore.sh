@@ -1,0 +1,1 @@
+find . | git check-ignore *
