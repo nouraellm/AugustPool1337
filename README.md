@@ -16,7 +16,7 @@
 
 ## Overview
 
-- Each week you have a couple of assignements to do.
+- Each week you have a couple of assignments to do.
 
 - Day00 & Day01 are all shell commands.
 
